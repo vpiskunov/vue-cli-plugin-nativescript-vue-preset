@@ -1,0 +1,20 @@
+{
+  "name": "vue-cli-plugin-vue-ns-preset",
+  "version": "0.1.2",
+  "description": "Adds an .eslint.js to fix errors on start & replaces ~tilde paths with @at paths",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "vue",
+    "cli",
+    "nativescript"
+  ],
+  "author": "Vladyslav Piskunov <vlad@assuredlabs.com>",
+  "license": "MIT",
+  "dependencies": {
+    "rimraf": "^2.6.3",
+    "simple-git": "^1.113.0"
+  }
+}
