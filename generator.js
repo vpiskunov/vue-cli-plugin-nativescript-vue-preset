@@ -38,6 +38,7 @@ function cliPluginMain(api, options, rootOptions) {
       // console.log('[Generator] rootPath:', rootPath);
       findReplace(rootPath, tempPath, `'~/`, `'@/`);
       findReplace(rootPath, tempPath, `VUE_APP_MODE == `, `VUE_APP_MODE === `);
+      findReplace(rootPath, tempPath, `'components/HelloWorld'`, `'@/components/HelloWorld'`);
       findReplace(rootPath, tempPath,
         `<!-- copy-webpack-plugin copies asset from src/assets to project output/build directory /assets -->`,
         `<!--
