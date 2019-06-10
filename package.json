@@ -1,7 +1,7 @@
 {
-  "name": "vue-cli-plugin-vue-ns-preset",
-  "version": "0.1.3",
-  "description": "Adds an .eslint.js to fix errors on start & replaces ~tilde paths with @at paths",
+  "name": "vue-cli-plugin-nativescript-vue-preset",
+  "version": "0.1.4",
+  "description": "Fixes most errors caused by installing <nativescript-vue> plugin. IMPORTANT: run \"vue invoke nativescript-vue-preset\" twice after adding. Adds .eslint.js, replaces ~tilde with @at paths & (fixes Unable to resolve path to module import/no-unresolved & import/extensions)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

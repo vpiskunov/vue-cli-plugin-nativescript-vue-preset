@@ -47,7 +47,7 @@ function cliPluginMain(api, options, rootOptions) {
 
       api.render('./template');
       if(git.hasProjectGit()) {
-        gitOps('vue add nativescript-vue && vue add vue-ns-preset');
+        gitOps('vue add nativescript-vue && vue add nativescript-vue-preset');
       }
       console.log('[Generator] Rendered template');
       // var child = execSync('npm run setup-webpack-config');
@@ -68,7 +68,7 @@ function cliPluginMain(api, options, rootOptions) {
       // });
     } else {
       console.log(`You need to run 'vue add nativescript-vue' first!`);
-      console.log(`Then reinstall this plugin by running vue invoke vue-ns-preset`);
+      console.log(`Then reinstall this plugin by running vue invoke nativescript-vue-preset`);
     }
     // api.extendPackage((pkg) => {
     //     console.log(`[Generator] extendPackage`);
