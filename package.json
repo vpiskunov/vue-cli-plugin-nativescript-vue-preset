@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-nativescript-vue-preset",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "Fixes most errors caused by installing <nativescript-vue> plugin. IMPORTANT: run \"vue invoke nativescript-vue-preset\" twice after adding. Adds .eslint.js, replaces ~tilde with @at paths & (fixes Unable to resolve path to module import/no-unresolved & import/extensions)",
   "main": "index.js",
   "scripts": {
