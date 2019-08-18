@@ -1,6 +1,8 @@
 # vue add nativescript-vue-preset
 Fixes most errors caused by installing &lt;nativescript-vue> plugin. 
 
+***BEFORE installing: create project using `vue create --preset vpiskunov/preset-vue-ns {your-project-name}`***
+
 **IMPORTANT:** run \"vue invoke nativescript-vue-preset\" twice after adding. 
 
 What does it do:
