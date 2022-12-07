@@ -24,6 +24,6 @@
   "license": "MIT",
   "dependencies": {
     "rimraf": "^2.6.3",
-    "simple-git": "^1.113.0"
+    "simple-git": "^3.15.0"
   }
 }
